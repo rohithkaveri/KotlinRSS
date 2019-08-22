@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     fun fetchJson(){
 
-        val url = "https://api.rss2json.com/v1/api.json?rss_url=https://www.sciencenews.org/feeds/headlines.rss"
+        val url = "https://api.rss2json.com/v1/api.json?rss_url=https://rss.nytimes.com/services/xml/rss/nyt/Science.xml"
         //https://skythewood.blogspot.com/feeds/posts/default
         val request = Request.Builder().url(url).build()
         val client = OkHttpClient()
